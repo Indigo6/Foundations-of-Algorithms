@@ -239,11 +239,11 @@
 
    3. Kruskal算法：（找到安全边的办法）在所有的连接森林中两棵不同树的边里面，找到权重最小的边(u,v)。
 
-      ![Kruskal](./KRUSKAL.png)
+      ![Kruskal](./KRUSKAL.PNG)
 
    4. Prim算法：所具有的一个性质是集合A中的边总是构成一棵树。
 
-      ![prim](./PRIM.png)
+      ![prim](./PRIM.PNG)
 
    5. 两个算法的复杂度都是 O(ElgV)
 
@@ -253,7 +253,7 @@
 
       1. v.d 初始化为 ∞
 
-      2. 松弛操作：![relax](./RELAX.png)
+      2. 松弛操作：![relax](./RELAX.PNG)
 
          + Dijkstra’s algorithm and the shortest-paths algorithm for directed acyclic graphs relax each edge exactly once.
 
