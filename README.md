@@ -1,5 +1,6 @@
 # 算法基础笔记
-<font color=red>要常去思考书中算法是怎么想出来的！</font>
+**<font color=red>要常去思考书中算法是怎么想出来的！</font>**
+（Github Markdown 不支持数学公式和颜色标注, 请下载食用!)
 
 ## 思想总结
 1. 分治法（合理划分，merge时可节省时间时才可行）：4.2
@@ -275,8 +276,10 @@
 
       2. Predecessor matrix
 
-      3. 递归解:  
-         ![](http://latex.codecogs.com/gif.latex?l^{(m)}_{ij}=\min_{1\leq k\leq n}(l^{(m-1)}_{ij},\min_{1\leq k\leq n}\{l^{(m-1)}_{ij}+w_{kj}\})=\min_{1\leq k\leq n}\{l^{(m-1)}_{ij}+w_{kj}\})
+      3. 递归解: 
+         $$
+         l^{(m)}_{ij}=\min_{1\leq k\leq n}(l^{(m-1)}_{ij},\min_{1\leq k\leq n}\{l^{(m-1)}_{ij}+w_{kj}\})=\min_{1\leq k\leq n}\{l^{(m-1)}_{ij}+w_{kj}\}
+         $$
 
 
       4. 自底向上计算最短路径权重
