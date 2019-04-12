@@ -276,9 +276,7 @@
       2. Predecessor matrix
 
       3. 递归解:  
-         $$
-         l^{(m)}_{ij}=\min_{1\leq k\leq n}(l^{(m-1)}_{ij},\min_{1\leq k\leq n}\{l^{(m-1)}_{ij}+w_{kj}\})=\min_{1\leq k\leq n}\{l^{(m-1)}_{ij}+w_{kj}\}
-         $$
+         ![](http://latex.codecogs.com/gif.latex?l^{(m)}_{ij}=\min_{1\leq k\leq n}(l^{(m-1)}_{ij},\min_{1\leq k\leq n}\{l^{(m-1)}_{ij}+w_{kj}\})=\min_{1\leq k\leq n}\{l^{(m-1)}_{ij}+w_{kj}\})
 
 
       4. 自底向上计算最短路径权重
